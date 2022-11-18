@@ -1,0 +1,58 @@
+{
+    // config auto suggest
+    "suggest.timeout": 500,
+    "suggest.enableFloat": false,
+    "suggest.noselect": false,
+    // "suggest.formatItems": [
+    //     "kind",
+    //     "abbr"
+    //     //     "menu",
+    //     //       "shortcut"
+    // ],
+    // "suggest.completionItemKindLabels": {
+    //     "method": "  ",
+    //     "function": "  ",
+    //     "variable": "[]",
+    //     "field": "  ",
+    //     "typeParameter": "<>",
+    //     "constant": "  ",
+    //     "class": " פּ ",
+    //     // "class": "  ",
+    //     "interface": " 蘒",
+    //     "struct": "  ",
+    //     "event": "  ",
+    //     "operator": "  ",
+    //     "module": "  ",
+    //     "property": "  ",
+    //     "enum": " 練",
+    //     "reference": "  ",
+    //     "keyword": "  ",
+    //     "file": "  ",
+    //     "folder": "  ",
+    //     "color": "  ",
+    //     "unit": " 塞 ",
+    //     // "snippet": "  ",
+    //     "snippet": "  ",
+    //     // "text": "  ",
+    //     "text": "  ",
+    //     "constructor": "  ",
+    //     "value": "  ",
+    //     "enumMember": "  "
+    // },
+
+    // config diagnostic
+    "diagnostic.enable": true,
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": "",
+
+    "list.menuAction": true,
+    "inlayHint.enable": false,
+
+    // python
+    "python.formatting.provider": "yapf",
+
+    // enable hidden
+    "coc.source.file.ignoreHidden": false
+}
